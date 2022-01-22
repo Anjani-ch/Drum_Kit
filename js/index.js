@@ -1,7 +1,7 @@
 const buttons = document.querySelector('#buttons');
 
 const playAudio = ref => {
-    const audio = new Audio(`../audio/${ref}.mp3`);
+    const audio = new Audio(`audio/${ref}.mp3`);
     audio.play();
 }
 
